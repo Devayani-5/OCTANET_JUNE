@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header, .footer {
+    background-color: #000;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.header a, .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.main {
+    background: url('premium_photo-1672883551968-dd15ceb7f802.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.main h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.main p {
+    font-size: 1.5em;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 1em;
+    
+}
+
+.cta-button:hover {
+    font-weight: bold;
+}
+
+.features, .gallery, .testimonials, .newsletter, .collection, .about, .services, .team, .contact {
+    padding: 50px 20px;
+    text-align: center;
+    background:linear-gradient(lightblue,white)
+}
+
+.features h2, .gallery h2, .testimonials h2, .newsletter h2, .about h2, .services h2, .team h2, .contact h2 {
+    margin-bottom: 30px;
+}
+
+.features .feature, .testimonials .testimonial {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    vertical-align: top;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter form input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 200px;
+}
+
+.newsletter form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.gal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.about, .services, .team, .contact {
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.about p, .services p, .team p, .contact p {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about, .services, .team, .contact, .testimonials {
+    padding: 50px 20px;
+}
+
+.testimonials .testimonial {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
